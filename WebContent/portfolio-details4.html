@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>수질조회 프로젝트</title>
+  <title>게시판 프로젝트</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -72,10 +72,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>KoreAqua</h2>
+          <h2>Board</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>수질 조회 사이트</li>
+            <li>커뮤니티 게시판</li>
           </ol>
         </div>
 
@@ -89,12 +89,8 @@
         <div class="portfolio-details-container">
 
           <div class="owl-carousel portfolio-details-carousel">
-            <img src="assets/img/portfolio/KoreAqua_1.png" class="img-fluid" alt="">
-            <img src="assets/img/portfolio/KoreAqua_2.png" class="img-fluid" alt="">
-            <img src="assets/img/portfolio/KoreAqua_3.png" class="img-fluid" alt="">
-            <img src="assets/img/portfolio/KoreAqua_4.png" class="img-fluid" alt="">
-            <img src="assets/img/portfolio/KoreAqua_5.png" class="img-fluid" alt="">
-            <img src="assets/img/portfolio/KoreAqua_6.png" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/Board_project.png" class="img-fluid" alt="">
+            <!-- <img src="assets/img/portfolio/Board_project2.png" class="img-fluid" alt=""> -->
             <!-- <img src="assets/img/portfolio/KoreAqua_7.png" class="img-fluid" alt=""> -->
             <!-- <img src="assets/img/portfolio/index.png" class="img-fluid" alt="">
             <img src="assets/img/portfolio/search.png" class="img-fluid" alt="">
@@ -104,48 +100,33 @@
           <div class="portfolio-info">
             <h3>Project information</h3>
             <ul>
-              <li><strong>Category</strong>: 우리동네 수질 조회사이트</li>              
-              <li><strong>Project date</strong>: 2020/10/23 ~ 2022/12/31</li>
-              <li><strong>GIT URL</strong>: <a href="https://github.com/velSeon/KoreAquaProjectSpring">https://github.com/velSeon/KoreAquaProjectSpring</a></li>
-              <li><strong>기능 정리 notion</strong>: <a href="https://inky-booklet-af5.notion.site/Portfolio-a97ccc90f774410785dfe3236d7cab81">노션으로이동하기</a></li>
+              <li><strong>Category</strong>: 커뮤니티 게시판</li>              
+              <li><strong>Project date</strong>: 2023/12/29 ~ 2023/01/18</li>
+              <li><strong>GIT URL</strong>: <a href="https://github.com/velSeon/crud_board">https://github.com/velSeon/crud_board</a></li>
+              <li><strong>URL</strong>: <a href="https://curd-board-is-c8542a32a75f.herokuapp.com/">https://curd-board-is-c8542a32a75f.herokuapp.com/</a></li>
             </ul>
           </div>
 
         </div>
 
         <div class="portfolio-description">
-          <h1>우리 동네 수질 확인 사이트</h1>
+          <h1>커뮤니티 게시판 서비스</h1>
           <p>
-            공공데이터 포털의 정보 조회 서비스 (상수도법정수질정보 조회,지방상수도 수질,광역정수장 수질,물과 여행 정보,물 백과사전 정보,가뭄 뉴스정보)의 데이터를 파싱하여 데이터 활용함. 클라이언트가 보기 쉽게 Java Script와 CSS를 활용하여 페이지의 화면을 구성하고, ajax의 비동기처리와 페이징 처리를 이용해 정보조회를 쉽게 할 수 있도록 웹사이트를 제작하였다.            
+            Spring Framework 공부를 위해 가장 기본적인 게시판 기능을 구현하였다.             
           </p>
           
-          <h2>사용 언어</h2>
-          <p>#JAVA(JSP/Servlet) #SQL developer(Oracle 11g) #Tomcat 8.5 #JavaScript #CSS3 #Bootstrap</p>
-                 
-          <h2>페이지 구성</h2>
+          <h2>개발 환경</h2>
+          <p>#Intellij IDEA #JAVA 17 #Gradle 7.4.1 #Spring Boot 2.7.0</p>
+
+          <h2>기술 스택</h2>
+          <p>#Spring Boot #QueryDSL 5.0.0 #Heroku #Bootstrap 5.2.0-Beta1</p>
+
+          <h2>기능 구성</h2>
           <p>
-          - 사용자가 조회하고 싶은 지역의 수질정보를 조회할 수 있는 수질 조회 페이지 <br>
-		  -전국 약수터 수질 정보 조회 검색 기능을 통해 약수터 이용 전 약수의 수질 적합, 부적합 여부를 조회 페이지 <br>
-		  - 대한민국 5대강 여행 코스 추천 페이지 <br>
-		  - 문의 게시판 </p>
-		  
-		  <h2>기대 효과</h2>
-          <p>
-          - 사용자가 조회하고 싶은 지역의 수질정보를 조회하여 ‘유충’, ‘대장균’ 등이 발견되는 상황이 발생하였을 경우,  일별, 주별, 월별 수질 관리 현황을 실시간으로 알 수 있도록 한다. <br>
-		  - 전국 약수터 수질 정보 조회 검색 기능을 통해 약수터 이용 전 약수의 수질 적합, 부적합 여부를 조회할 수 있다.  <br>
-		  - 대한민국 5대강 여행 코스를 소개해 국내 숨은 명소 활성화를 통해 지역 경제를 발전시킬 수 있다. <br>
-		  - 사용자의 불편한 점과 궁금한 점에 대해 게시글을 남길 수 있고, 관리자는 그에 대한 대답을 남길 수 있다. </p>
-		  
-		  <h2>본인 역할</h2>
-          <p>
-          
-          1. 행정구역과 정수장 정보를 DB에 넣은 후 SQl문으로 관할 지역에 맞게 selectbox가 나오게 설정하였다. <br> 
-		  2. 공공데이터 포털의 수질에 관련된 Open api(상수도법정수질정보 조회,지방상수도 수질,광역정수장 수질) 활용신청을 통해 데이터를 파싱하였다. <br>
-		  3. 조회 시 검색 지역에 맞는 수질데이터를 화면에 표현해줌. <br>
-		  4. 익숙하지 않은 수질 데이터 용어를 모달창을 이용하여 사용자가 확인 할 수 있게 제작하였다.<br>
-		  5. bootstrap을 활용하여 전반적인 css 담당 <br>
-		  5. 프로젝트 문서화 & readme 작성 </p>
-          
+          - 회원가입(카카오) <br>
+          -글쓰기, 수정, 삭제 <br>
+          - 댓글 쓰기, 수정, 대댓글 쓰기, 수정 <br>
+          - 태그, 태그 검색 </p>
         </div>
 
       </div>
